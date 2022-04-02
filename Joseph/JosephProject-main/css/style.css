@@ -1,0 +1,12 @@
+.bg-register-image {
+    background: Url("../images/future-car.jpg") ;
+    background-position: center;
+    background-size: cover;
+}
+
+.grey {
+    color: grey;
+
+}
+
+

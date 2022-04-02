@@ -1,0 +1,116 @@
+<style>
+* {
+    box-sizing: content-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the header */
+header {
+    background-image: url("../images/Future-car.jpg");
+    background-color: blue;
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: black;
+}
+
+section {
+    background-image: url("../images/complication.jpg");
+    padding: auto;
+    margin: auto;
+    font-size: 15px;
+    color: purple;
+}
+
+/*.styleimages {
+    background-image: url("../images/Future-car.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 20%;
+    height: 450px; /* only for demonstration, should be removed */
+    background: blueviolet;
+    padding: 10px;
+    color: floralwhite;
+    margin-inside: 2px
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 2px;
+    marker-offset: auto;
+}
+
+/*article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: wheat;
+    height: 100px; /* only for demonstration, should be removed */
+}
+nav ul {
+    list-style-type: none;
+    padding: 2px;
+    marker-offset: auto;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 2px;
+    padding: 3px;
+    margin-inside: auto;
+}
+
+/* Style the footer */
+footer {
+    background-color: navajowhite;
+    padding: 10px;
+    text-align: -webkit-left;
+    color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+ /*   nav, article {
+        width: auto;
+        height: auto;
+    }
+}
+/* Style buttons */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    --bs-table-hover-bg: blue;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.header {
+    background-image: url("..images/future-car.jpg");
+}
+
+}
+
+
+
